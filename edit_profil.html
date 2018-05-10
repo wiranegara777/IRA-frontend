@@ -52,7 +52,7 @@
 
 </style>
 
-<title>Profil</title>
+<title>Edit Profil</title>
 
 <!--CSS Navbar -->
   
@@ -129,42 +129,89 @@
                     <tbody>
                       <tr>
                         <td>Nama</td>
-                        <td>: Muhammad Luthfir R</td>
+                        <td class="input-group"> <input type=" text" class=" form-control" placeholder="Muhammad Luthfir" required/></td>
                       </tr>
                       <tr>
                         <td>Jenis Kelamin</td>
-                        <td>: Laki-Laki</td>
+                           <td> <input type="radio" id="lakilaki" name="jeniskelamin" checked />
+                            <label for="lakilaki">Laki-Laki</label>
+                            <input type="radio" id="perempuan" name="jeniskelamin"/>
+                            <label for="perempuan">Perempuan</label>
+                           </td>
                       </tr>
                       <tr>
                         <td>Nomor Induk Mahasiswa</td>
-                        <td>: G64150028</td>
+                        <td class="input-group"> <input type=" text" class=" form-control" placeholder="G64150028" required/></td>
                       </tr>
                       <tr>
                         <td>Fakultas</td>
-                        <td>: FMIPA</td>
+                        <td class="input-group">
+                            <select class="form-control selectpicker" required>
+                                <option value="">FMIPA</option>
+                                <option >FMIPA</option>
+                                <option >FEM</option>
+                                <option >FPIK</option>
+                                <option >FEMA</option>
+                                <option >SB</option>
+                                <option >FAPERTA</option>
+                                <option >FAPET</option>
+                                <option >FATETA</option>
+                                <option >FAHUTAN</option>
+                                <option >FKH</option>
+                                <option >D3</option>
+                            </select>
+                        </td>
                       </tr>
                       <tr>
                         <td>Departemen</td>
-                        <td>: Ilmu Komputer</td>
+                        <td class="input-group">
+                                <select class="form-control selectpicker" required>
+                                    <option value="">Ilmu Komputer</option>
+                                    <option >Ilmu Komputer</option>
+                                    <option >Geofisika dan Meteorologi</option>
+                                    <option >Biologi</option>
+                                    <option >Biokimia</option>
+                                    <option >Matematika</option>
+                                    <option >Statistika</option>
+                                    <option >Fisika</option>
+                                    <option >Kimia</option>
+                                </select>
+                        </td>
                       </tr>
                         <tr>
                         <td>Angkatan</td>
-                        <td>: 2015</td>
+                        <td class="input-group">
+                                <select class="form-control selectpicker" required>
+                                    <option value="">2015</option>
+                                    <option >2013</option>
+                                    <option >2014</option>
+                                    <option >2015</option>
+                                    <option >2016</option>
+                                    <option >2017</option>
+                                    <option >2018</option>
+                                    <option >2019</option>
+                                    <option >2020</option>
+                                </select>
+                        </td>
                       </tr>
                       <tr>
                         <td>Email</td>
-                        <td>: <a href="mailto:info@support.com">upil.luthfir@gmail.com</a></td>
+                        <td class="input-group">
+                            <input type="text" class="form-control" placeholder="upil.luthfir@gmail.com" required/>
+                        </td>
                       </tr>
                         <td>Telepon</td>
-                        <td>: 123-4567-890
+                        <td class="input-group">
+                            <input type="text" class="form-control" name="telepon" id="telepon"  placeholder="123-4567-890" required/>        
                         </td>
-                           
                       </tr>
                      
                     </tbody>
                   </table>
                   
-                  <a href="edit_profil.html" class="btn btn-primary">Edit Profil</a>
+                  <a href="profil.html" class="btn btn-primary">Simpan</a>
+                  <a href="#" class="btn btn-primary">Ganti Password</a>
+
                 </div>
               </div>
             </div>            
