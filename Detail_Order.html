@@ -45,6 +45,13 @@
 .bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%;}
 .bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none; }
 /*END Form Wizard*/
+.tombol{
+  background-color: #008B8B;
+}
+.tombol:hover{
+  background-color: #006d6d;
+  border-color: #006d6d;
+}
   </style>
 </head>
 <body>
@@ -61,7 +68,7 @@
       <!-- Search -->
       <form class="form-inline my-2 my-lg-0">
         <input style="width:300px;" class="form-control mr-sm-2" type="search" placeholder="Search Room" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" style="color: whitesmoke; border-color: whitesmoke " type="submit">Search</button>
+        <button class="btn btn-outline-success my-2 my-sm-0" style="color: whitesmoke; border-color: whitesmoke; " type="submit">Search</button>
       </form>
     </ul>
 
@@ -262,8 +269,8 @@
                     </div>  
           </div>
 
-
-          <a href="order_room.html" class="btn btn-info" role="button" style="background-color: #008B8B; margin-top: 30%; margin-left: 80%">Tutup</a>
+          <a href="#" class="btn btn-info tombol" role="button" style="margin-top: 10%; margin-left: 55%">Konfirm Pembayaran</a>
+          <a href="order_room.html" class="btn btn-info tombol" role="button" style="margin-top: 25%; margin-left: 80%">Tutup</a>
             
 
         </div>
